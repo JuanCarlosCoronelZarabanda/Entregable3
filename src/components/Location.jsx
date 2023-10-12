@@ -17,15 +17,15 @@ const Location = ({ location, setLocation }) => {
 
 
     <section className=" overflow-hidden  flex items-center justify-center ">
-      <div className="w-full bg-no-repeat bg-cover bg-[url('public/img01.png')] py-5 px-20 " >
+      <div className="w-full bg-no-repeat bg-cover bg-[url('/img01.png')] py-5 px-20 " >
         <div  className="relative style={{ paddingBottom: '100%' }} flex items-center justify-center h-full w-full  border-opacity-100 ">
 
           <section>
             <div>
 
-            <img className="h-100 w-100 rounded-full animate-spin duration-1000 " src="public/img2.png" alt="" />
+            <img className="h-100 w-100 rounded-full animate-spin duration-1000 " src="/img2.png" alt="" />
             
-            <img className="h-full w-full" src="public/img3.png" alt="" />
+            <img className="h-full w-full" src="/img3.png" alt="" />
             </div>
 
 
