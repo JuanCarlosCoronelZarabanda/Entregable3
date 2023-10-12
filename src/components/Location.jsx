@@ -43,6 +43,7 @@ const Location = ({ location, setLocation }) => {
 
 
         {/* Location info */}
+        
         <div className="border-solid border-[6px] border-green-500 py-3 text-center">
           <section>
             <h1 className="text-green-500">¡Wellcome to {location?.name}!</h1>
