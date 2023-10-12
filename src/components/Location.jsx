@@ -17,7 +17,7 @@ const Location = ({ location, setLocation }) => {
 
 
     <section className=" overflow-hidden  flex items-center justify-center ">
-      <div className="w-full bg-no-repeat bg-cover bg-[url('/img01.png')] py-5 px-20 " >
+      <div className="w-full bg-no-repeat bg-cover py-10 px-20" style={{ backgroundImage: 'url("/img01.png")' }} >
         <div  className="relative style={{ paddingBottom: '100%' }} flex items-center justify-center h-full w-full  border-opacity-100 ">
 
           <section>
