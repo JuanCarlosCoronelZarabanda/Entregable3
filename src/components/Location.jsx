@@ -16,14 +16,17 @@ const Location = ({ location, setLocation }) => {
   return (
 
 
-    <section className=" px-4 overflow-hidden  flex items-center justify-center ">
-      <div className=" " >
-        <div >
+    <section className=" overflow-hidden  flex items-center justify-center ">
+      <div className="w-full bg-no-repeat bg-cover bg-[url('public/img01.png')]  " >
+        <div  className="relative style={{ paddingBottom: '100%' }} flex items-center justify-center h-full w-full  border-opacity-100 ">
 
-          <section className="relative style={{ paddingBottom: '100%' }} flex items-center justify-center h-full w-full rounded-full border-opacity-100 bg-no-repeat bg-cover bg-[url('public/img2.png')] ">
+          <section>
+            <div>
 
-            {/*<img className="h-100 w-100 rounded-full animate-spin duration-1000 " src="public/img2.png" alt="" />*/}
-            <img className="h-100 w-100" src="public/img3.png" alt="" />
+            <img className="h-100 w-100 rounded-full animate-spin duration-1000 " src="public/img2.png" alt="" />
+            
+            <img className="h-full w-full" src="public/img3.png" alt="" />
+            </div>
 
 
 
@@ -37,14 +40,15 @@ const Location = ({ location, setLocation }) => {
             <button type="submit" className="flex gap-2 items-center bg-green-900 px-3 border-solid border-[5px] border-green-500 ">
               <span >Search</span> <IconSearch size={18} stroke={3} />
             </button>
-            <h1 className="text-green-500">#{location?.id}</h1>
+            <h1 className="text-green-500">¡You have fallen 
+            into dimension #{location?.id}!</h1>
           </form>
         </div>
 
 
         {/* Location info */}
-        
-        <div className="border-solid border-[6px] border-green-500 py-3 text-center">
+
+        <div className="border-solid border-[6px] border-green-500 py-6  text-center">
           <section>
             <h1 className="text-green-500">¡Wellcome to {location?.name}!</h1>
 
